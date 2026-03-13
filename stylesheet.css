@@ -1,0 +1,141 @@
+.twingate_on {
+    background-image: url("icons/twingate_on.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.twingate_authenticating {
+    background-image: url("icons/twingate_authenticating.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    opacity: 0.8;
+}
+
+.twingate_off {
+    background-image: url("icons/twingate_off.png");
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    opacity: 0.6;
+}
+
+.twingate-status-label {
+    font-size: 12pt;
+    padding: 8px 12px;
+    min-width: 200px;
+}
+
+.twingate-version-label {
+    font-size: 9pt;
+    padding: 4px 12px;
+    color: #9ca3af;
+    font-family: monospace;
+}
+
+.twingate-resources-title {
+    font-weight: bold;
+    font-size: 10pt;
+    color: #6b7280;
+}
+
+.twingate-resources-header {
+    padding: 8px 0;
+}
+
+.twingate-resources-scroll {
+    max-height: 300px;
+    min-width: 320px;
+    border-radius: 8px;
+}
+
+.twingate-resources-container {
+    padding: 4px;
+}
+
+.twingate-resource-item {
+    padding: 10px 14px;
+    margin: 4px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border-left: 3px solid #4ade80;
+    transition: background-color 0.2s ease;
+}
+
+.twingate-resource-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.twingate-resource-name-box {
+    margin-bottom: 4px;
+}
+
+.twingate-resource-icon {
+    font-size: 11pt;
+    color: #4ade80;
+}
+
+.twingate-resources-scroll {
+    max-height: 300px;
+    min-width: 280px;
+}
+
+.twingate-resources-container {
+    padding: 4px;
+}
+
+.twingate-resource-item {
+    padding: 8px 12px;
+    margin: 4px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+}
+
+.twingate-resource-name-box {
+    spacing: 6px;
+}
+
+.twingate-resource-icon {
+    font-size: 12pt;
+}
+
+.twingate-resource-name {
+    font-weight: bold;
+    font-size: 10pt;
+    color: #e5e7eb;
+}
+
+.twingate-resource-address {
+    font-size: 9pt;
+    color: #9ca3af;
+    font-family: monospace;
+    margin-top: 4px;
+    padding-left: 24px;
+}
+
+.twingate-resource-empty,
+.twingate-resource-error {
+    padding: 12px;
+    font-style: italic;
+}
+
+.twingate-resource-empty,
+.twingate-resource-error {
+    text-align: center;
+    padding: 20px;
+    font-size: 9.5pt;
+}
+
+.popup-menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.popup-menu-item {
+    padding: 6px 12px;
+}
+
+.popup-separator-menu-item {
+    margin: 4px 0;
+}

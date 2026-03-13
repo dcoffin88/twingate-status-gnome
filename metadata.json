@@ -1,0 +1,17 @@
+{
+  "name": "Twingate Status",
+  "description": "Displays Twingate connection status in the top bar with available resources list. Click to start/stop connection. Supports multiple languages and connection states (online, authenticating, offline). Configurable preferences with enhanced display and scrolling.",
+  "uuid": "twingate-status@dcoffin88.ca",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "url": "https://github.com/dcoffin88/twingate-status-gnome",
+  "donations": {
+    "kofi": "eudesochoa"
+  },
+  "version": 1.0.2,
+  "settings-schema": "org.gnome.shell.extensions.twingate-status"
+}

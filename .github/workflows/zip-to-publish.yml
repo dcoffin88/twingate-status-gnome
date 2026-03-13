@@ -1,0 +1,32 @@
+name: Upload release assets
+
+permissions:
+  contents: write
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build-deb:
+    name: Create zip for publishing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Create zip
+        run: |
+          # Compile schemas before zip creation
+          mkdir -p schemas
+          glib-compile-schemas schemas/ || echo "Warning: Could not compile schemas"
+          zip -r twingate-status@dcoffin88.ca.zip icons/ schemas/ extension.js prefs.js locale.js metadata.json stylesheet.css LICENSE
+
+      - name: Upload package
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./twingate-status@dcoffin88.ca.zip
+          asset_name: twingate-status@dcoffin88.ca.zip
+          tag: ${{ github.ref }}
