@@ -65,7 +65,7 @@ sudo twingate config autostart true
 3. Restart GNOME Shell (Alt+F2, type 'r', press Enter on X11 or logout/login on Wayland)
 4. Enable the extension using GNOME Extensions app or:
    ```bash
-   gnome-extensions enable twingate-status@eudes.es
+   gnome-extensions enable twingate-status@dcoffin88.ca
    ```
 
 ## Configuration
@@ -110,7 +110,7 @@ journalctl -f -o cat /usr/bin/gnome-shell | grep -i twingate
 ### Extension not loading
 1. Check that GNOME Shell version is 46-49
 2. Ensure Twingate is installed: `which twingate`
-3. Verify schema compilation: `ls ~/.local/share/gnome-shell/extensions/twingate-status@eudes.es/schemas/gschemas.compiled`
+3. Verify schema compilation: `ls ~/.local/share/gnome-shell/extensions/twingate-status@dcoffin88.ca/schemas/gschemas.compiled`
 4. Check logs: `journalctl -f -o cat /usr/bin/gnome-shell | grep -i twingate`
 
 ### Settings not loading

@@ -7,7 +7,7 @@ RED='\033[0;31m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-EXTENSION_DIR=~/.local/share/gnome-shell/extensions/twingate-status@edcoffin88.ca
+EXTENSION_DIR=~/.local/share/gnome-shell/extensions/twingate-status@dcoffin88.ca
 
 echo -e "${YELLOW}Installing Twingate Status extension...${NC}\n"
 
