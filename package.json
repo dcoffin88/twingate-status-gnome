@@ -1,6 +1,6 @@
 {
   "name": "twingate-status",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "extension.js",
   "dependencies": {
     "@girs/gjs": "^4.0.0-beta.16",

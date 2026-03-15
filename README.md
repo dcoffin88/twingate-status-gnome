@@ -28,7 +28,7 @@ Clicking on the menu entry starts or stops the connection.
 Twingate for Linux should be installed before this extension. Your system should use Systemd (or have a `systemctl` shim).
 
 ## Compatibility
-Tested working on Fedora 43 and GNOME Shell 46-49.
+Tested working on Fedora 43 and GNOME Shell 46-50.
 
 This extension calls the following commands. If these don't work when you run them manually the extension won't be able to change the connection status.
 

@@ -1,12 +1,12 @@
 .twingate_on {
-    background-image: url("icons/twingate_on.png");
+    background-image: url("icons/twingate_on.svg");
     background-size: 20px;
     height: 20px;
     width: 20px;
 }
 
 .twingate_authenticating {
-    background-image: url("icons/twingate_authenticating.png");
+    background-image: url("icons/twingate_authenticating.svg");
     background-size: 20px;
     height: 20px;
     width: 20px;
@@ -14,7 +14,7 @@
 }
 
 .twingate_off {
-    background-image: url("icons/twingate_off.png");
+    background-image: url("icons/twingate_off.svg");
     background-size: 20px;
     height: 20px;
     width: 20px;
